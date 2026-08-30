@@ -99,7 +99,7 @@
   "F": {
     "ANDROID": {
       "FOREGROUND_SERVICE_START_FAILED_FOCUS": "Android a bloqué la notification permanente du mode Concentration. Le minuteur continue de fonctionner dans l'application, mais les alertes en arrière-plan peuvent être indisponibles. Vérifiez l'autorisation des notifications et les restrictions de batterie ou d'activité en arrière-plan.",
-      "FOREGROUND_SERVICE_START_FAILED_TRACKING": "Android a bloqué la notification permanente de suivi du temps. Le temps reste suivi dans l'application, mais la récupération en arrière-plan peut être indisponible. Vérifiez l'autorisation des notifications et les restrictions de batterie ou d'activité en arrière-plan.",
+      "FOREGROUND_SERVICE_START_FAILED_TRACKING": "Android a bloqué la notification permanente de suivi du temps. Il reste suivi dans l'application, mais la récupération en arrière-plan peut être indisponible. Vérifiez l'autorisation des notifications et les restrictions de batterie ou d'activité en arrière-plan.",
       "OPEN_NOTIFICATION_SETTINGS": "Ouvrir les paramètres",
       "WIDGET_TASKS_UPDATED": "Tâches mises à jour depuis le widget : {{count}}"
     },
@@ -164,7 +164,7 @@
         "SORT_BY_CREATED": "Création",
         "SORT_BY_DUE": "Date d'échéance",
         "SORT_BY_MANUAL": "Manuel",
-        "SORT_BY_TIME_ESTIMATE": "Estimation du temps",
+        "SORT_BY_TIME_ESTIMATE": "Estimation de durée",
         "SORT_BY_TITLE": "Titre",
         "SORT_DIR": "Sens",
         "SORT_DIR_ASC": "Croissant",
@@ -770,7 +770,7 @@
         "SESSIONS_LIST": "Sessions",
         "TITLE": "Sessions de concentration",
         "TOTAL_SESSIONS": "Total des sessions",
-        "TOTAL_TIME": "Temps total"
+        "TOTAL_TIME": "Durée totale"
       },
       "REFLECTION": {
         "HISTORY_BTN": "Voir les réflexions passées",
@@ -1349,7 +1349,7 @@
         "CONFIRM_TITLE": "Confirmer la restauration",
         "ERROR_LOADING": "Échec du chargement des points de restauration",
         "ERROR_RESTORE": "Échec de la restauration des données",
-        "INTRO": "Sélectionnez un moment dans le temps pour restaurer vos données :",
+        "INTRO": "Sélectionnez la date à laquelle restaurer vos données :",
         "LOADING": "Chargement des points de restauration...",
         "NO_POINTS": "Aucun point de restauration disponible. Les points de restauration sont créés lors de la synchronisation ou de l'importation de données.",
         "TITLE": "Restaurer depuis l'historique",
@@ -1972,7 +1972,7 @@
       },
       "D_SELECT_DATE_AND_TIME": {
         "DATE": "Date",
-        "TIME": "Temps",
+        "TIME": "Heure",
         "TITLE": "Sélectionner la date et l'heure"
       },
       "D_TIME": {
@@ -2146,10 +2146,10 @@
       "CUSTOMIZER": {
         "ENTER_PROJECT": "Entrer le projet",
         "ENTER_TAG": "Entrer le tag",
-        "ESTIMATED_TIME": "Temps estimé",
+        "ESTIMATED_TIME": "Durée estimé",
         "FILTER_BY": "Filtrer par",
         "FILTER_DEFAULT": "Pas de filtre",
-        "FILTER_ESTIMATED_TIME": "Temps estimé",
+        "FILTER_ESTIMATED_TIME": "Durée estimé",
         "FILTER_NOT_SPECIFIED": "Toute date",
         "FILTER_PROJECT": "Projet",
         "FILTER_SCHEDULED_DATE": "Date prévue",
@@ -2209,10 +2209,10 @@
         "CREATE_AND_TRACK": "<em>Créer</em> et ajouter sur :",
         "BREAK_SUMMARY": "{{time}} sera ajouté à votre temps de pause.",
         "CONFIRM_BREAK": "Comptabiliser comme pause",
-        "CONFIRM_CREATE_TASK": "Créer une tâche et comptabiliser le temps",
+        "CONFIRM_CREATE_TASK": "Créer une tâche et comptabiliser la durée",
         "CONFIRM_SPLIT": "Tout comptabiliser",
-        "CONFIRM_TASK": "Comptabiliser le temps pour la tâche",
-        "CONFIRM_TRACK": "Comptabiliser le temps",
+        "CONFIRM_TASK": "Comptabiliser la durée pour la tâche",
+        "CONFIRM_TRACK": "Comptabiliser la durée",
         "DONT_TRACK": "Ne pas comptabiliser",
         "IDLE_FOR": "Vous avez été inactif pendant : ",
         "MODE_BREAK": "Pause",
@@ -2221,7 +2221,7 @@
         "RESET_BREAK_REMINDER_TIMER": "Réinitialiser le minuteur de rappel de pause",
         "SIMPLE_CONFIRM_COUNTER_CANCEL": "Sauter",
         "SIMPLE_CONFIRM_COUNTER_OK": "Piste",
-        "SIMPLE_COUNTER_CONFIRM_TXT": "Vous avez sélectionné ignorer, mais activé {{nr}} bouton(s) de compteur simple. Voulez-vous suivre le temps d'inactivité pour eux ?",
+        "SIMPLE_COUNTER_CONFIRM_TXT": "Vous avez sélectionné ignorer, mais activé {{nr}} bouton(s) de compteur simple. Voulez-vous suivre la durée d'inactivité pour eux ?",
         "SIMPLE_COUNTER_TOOLTIP": "Cliquez pour suivre jusqu'à {{title}}",
         "SIMPLE_COUNTER_TOOLTIP_DISABLE": "Cliquez pour ne PAS suivre jusqu'à {{title}}",
         "SKIP": "Passer",
@@ -2742,7 +2742,7 @@
       "DONE_SOUND": "Son pour tâche terminée",
       "IS_INCREASE_DONE_PITCH": "Augmentez la hauteur pour chaque tâche effectuée",
       "TITLE": "Du son",
-      "TRACK_TIME_SOUND": "Son de rappel de temps de piste",
+      "TRACK_TIME_SOUND": "Son de rappel de suivi du temps",
       "VOLUME": "Le volume"
     },
     "TAKE_A_BREAK": {
@@ -2757,7 +2757,7 @@
       "MIN_WORKING_TIME": "Déclencher l'invitation à prendre une pause après avoir travaillé X sans pause",
       "MOTIVATIONAL_IMGS": "Image de motivation (URL Web)",
       "NOTIFICATION_TITLE": "Prendre une pause!",
-      "SNOOZE_TIME": "Temps de répétition lorsque vous êtes invité à faire une pause",
+      "SNOOZE_TIME": "Durée de répétition lorsque vous êtes invité à faire une pause",
       "TITLE": "Rappel de pause"
     },
     "TASKS": {
@@ -2775,7 +2775,7 @@
       "L_DEFAULT_ESTIMATE": "Estimation du temps par défaut pour les nouvelles tâches",
       "L_DEFAULT_ESTIMATE_SUB_TASKS": "Estimation du temps par défaut pour les nouvelles sous-tâches",
       "L_IS_AUTO_START_NEXT_TASK": "Démarrer le suivi de la prochaine tâche quand la tâche courante est marquée comme terminée",
-      "L_IS_NOTIFY_WHEN_TIME_ESTIMATE_EXCEEDED": "Notifier lorsque le temps estimé a été dépassé",
+      "L_IS_NOTIFY_WHEN_TIME_ESTIMATE_EXCEEDED": "Notifier lorsque la durée estimée a été dépassée",
       "L_IS_TRACKING_REMINDER_ENABLED": "Rappel de suivi activé",
       "L_IS_TRACKING_REMINDER_FOCUS_WINDOW": "Fenêtre de l’application Focus lorsque le rappel est actif (ordinateur uniquement)",
       "L_IS_TRACKING_REMINDER_NOTIFY": "Avertir lorsque le rappel de suivi du temps s’affiche",
@@ -2951,7 +2951,7 @@
       },
       "TIME_TRACKER": {
         "TITLE": "Suivi du temps",
-        "DESCRIPTION": "Mesurez le temps passé sur vos tâches. Idéal pour la facturation ou pour comprendre où passe votre temps."
+        "DESCRIPTION": "Mesurez la durée passée sur vos tâches. Idéal pour la facturation ou pour comprendre où passe votre temps."
       },
       "PRODUCTIVITY_PRO": {
         "TITLE": "Suite Productivité",
@@ -3007,7 +3007,7 @@
     "SUMMARY_FOR": "Récapitulatif quotidien pour {{dayStr}}",
     "TASKS_COMPLETED": "Tâches terminées",
     "TIME_SPENT_AND_ESTIMATE_LABEL": "Temps passé / estimé",
-    "TIME_SPENT_ESTIMATE_TITLE": "Temps passé: Temps total passé aujourd'hui. Tâches archivées non incluses. - Temps estimé: temps estimé pour les tâches effectuées aujourd'hui moins le temps déjà passé dessus les autres jours.",
+    "TIME_SPENT_ESTIMATE_TITLE": "Temps passé: Temps total passé aujourd'hui. Tâches archivées non incluses. - Durée estimée: temps estimé pour les tâches effectuées aujourd'hui moins le temps déjà passé dessus les autres jours.",
     "TIME_SPENT_TODAY_BY_TAG": "Temps passé aujourd'hui par Balise",
     "WEEK": "La semaine"
   },
@@ -3268,7 +3268,7 @@
     "NO_PLANNED_TASKS": "Aucune tâche planifiée",
     "READY_TO_WORK": "Prêt à travailler !",
     "RESET_BREAK_TIMER": "Réinitialiser le timer 'sans prendre de pause'",
-    "TIME_ESTIMATED": "Temps estimé :",
+    "TIME_ESTIMATED": "Durée estimé :",
     "TODAY_REMAINING": "Restant pour aujourd'hui :",
     "WITHOUT_BREAK": "Sans pause :",
     "WORKING_TODAY": "Travaillé aujourd'hui :",
